@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  
+ 
+}
+
+h2{
+    color:rgb(0, 0, 0);
+    text-align: center;
+    font-size: 28px;
+    text-decoration: underline;
+    text-decoration-color: #407060;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom:20px;
+    margin-top: 20px;
+    
+}
+
+
+ul {
+    list-style-type: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #407060;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+
+  h1{
+    font-size: 16px;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end; 
+    gap: 40px;
+}
+
+.text {
+    margin-left: 20px;
+    width: 50%; 
+    line-height: 2;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    
+}
+
+.images {
+    align-content: right;
+    width: 50%; /* Keeps the container width */
+    display: flex;
+    flex-direction: column; /* Stacks the images vertically */
+    gap:10px; /* Increases space between images */
+    right: 20px;
+    
+
+  
+}
+
+.images img {
+    width: 75%; /* Adjusts the size of each image (smaller than the container) */
+    height: auto; /* Maintains aspect ratio of the images */
+ }
+
+ 
+
+ .caption{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 9px;
+}
+
+
+
+ h3{ font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 20px;
+ }
+
+ .conservation-list {
+    list-style-type: disc;
+    margin-top: 20px;
+    padding-left: 20px; /* Adds indentation for the list */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white; /* Keeps the list text white */
+    background-color: transparent; /* Ensures background stays clean */
+}
+
+.conservation-list li {
+    margin-bottom: 10px; 
+}
+
+.conservation-list li a {
+    text-decoration: underline; 
+    color: blue; /* Ensures hyperlinks are blue */
+    background-color: transparent; /* Prevents any background changes */
+    pointer-events: auto; /* Keeps links clickable */
+}
+
+.conservation-list li a:visited,
+.conservation-list li a:active,
+.conservation-list li a:hover {
+    color: blue; /* Keeps the text blue at all interaction states */
+    background-color: transparent; /* Removes any background on interaction */
+}
+.image6{
+  height: 50px;
+}

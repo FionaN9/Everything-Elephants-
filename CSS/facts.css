@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+
+}
+
+.image {
+  width: 100%; /* Makes the image span the full width of the container */
+  height: auto; /* Maintains the aspect ratio */
+  display: block; /* Removes any extra spacing below the image */
+  
+}
+
+
+.image-container {
+  position: relative;
+  width: 100%;
+  
+  background-image: url('https://plantbasednews.org/app/uploads/2024/06/plant-based-news-elephant-names-1200x745.jpg'); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  background-color: rgba(64, 112, 96, 0.5); /* Optional: darkens background for readability */
+  padding: 20px;
+  border-radius: 10px;
+  
+}
+.caption-container {
+  text-align: left;
+  
+  margin-bottom: 20px;
+}
+
+.caption {
+  font-size: 10px;
+  color: #333;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 20px;
+}
+
+
+ul {
+  list-style-type: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+li {
+  float: left;
+}
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #407060;
+}
+
+li a:hover {
+  background-color: #111;
+}
+.facts-list {
+  font-family: "Verdana", sans-serif;
+  font-size: 15px;
+  color: #222;
+  line-height: 2;
+}
+.facts-list {
+list-style-position: outside; 
+margin: 0 22%; /* Sets tighter margins */
+padding: 0 100px; /* Adjusts padding to control the spacing inside */
+}
+
+.facts-list li {
+display: list-item; /* Ensures proper list behavior */
+margin-bottom: 10px; /* Adds space between list items */
+}
+
+
+.group{
+  width: min-content;
+}
+
+#row-five-image {
+
+width: 100%; /* Adjusts to the container's width */
+height: auto; /* Maintains aspect ratio */
+max-width: 100%; /* Prevents it from exceeding its original size */
+  
+}
+
