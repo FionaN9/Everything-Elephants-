@@ -5,18 +5,20 @@ canvas.height = window.innerHeight;
 
 const images = [];
 const imageSrcs = [
-  "../images/1.png",
-  "../images/2.png",
-  "../images/3.png",
-  "../images/4.png",
-  "../images/5.png",
-  "../images/6.png",
-  "../images/1.png",
-  "../images/2.png",
-  "../images/3.png",
-  "../images/4.png",
-  "../images/5.png",
-  "../images/6.png",
+  "images/Elephant_1.png",
+  "images/Elephant_2.png",
+  "images/Elephant_3.png",
+  "images/Elephant_4.png",
+  "images/Elephant_5.png",
+  "images/Elephant_6.png",
+  "images/Elephant_1.png",
+  "images/Elephant_2.png",
+  "images/Elephant_3.png",
+  "images/Elephant_4.png",
+  "images/Elephant_5.png",
+  "images/Elephant_6.png",
+
+
 ]; // where to Add more
 
 imageSrcs.forEach((src) => {
